@@ -1,0 +1,288 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.head{
+    background: url(../images/banner-bg.webp);
+    height:888px;
+    width:100%;
+    background-size: cover;
+    position: relative;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color:rgb(182, 129, 129);
+    margin:25px 167px;
+    width: 66%;
+    padding:15px 131px;
+    border-radius:7px;
+}
+.nav{
+    position:absolute;
+}
+ul{
+    display: flex;
+}
+ul li{
+    list-style: none;
+    padding: 19px 19px;
+    font-size:18px;
+    font-weight: 500;
+    color: rgb(2, 2, 19);
+}
+ul li a{
+    text-decoration: none;
+}
+.text p{
+    position: absolute;
+    font-size:19px;
+    width:94%;
+    text-align: center;
+    top:53%;
+    color: rgb(255, 244, 244);
+    font-style: oblique;
+}
+.text h1{
+    position: absolute;
+    font-size:46px;
+    width:94%;
+    text-align: center;
+    top:58%;
+    color: wheat;
+    font-size:67px;
+    font-style: italic;
+}
+.text span{
+    color: yellow;
+   }
+   .container{
+       display: flex;
+       margin-left:98px;
+       position: relative;
+    
+   }
+   .container img{   
+       width:78%;
+       text-align: center;
+       margin-top:111px;
+       
+ }
+ .right{
+     position: absolute;
+     top:29%;
+     width: 131%;
+    text-align: center;
+ }
+ .right h2{
+     font-size:43px;
+     font-style: oblique;
+     margin-left:-185px;
+ }
+ .right span{
+     color: #ffb606;
+     margin-left: -51px;
+ }
+ .right p{
+     font-size:17px;
+     line-height:26px;
+     font-weight: 100;
+     text-align:justify;
+     margin-left:632px;
+ }
+ .btn{
+     margin-top:37px;
+    margin-left: -205px;
+    padding: 18px 46px;
+   background-color: #ffb606;
+   color: black;
+   font-size:12px;
+   font-weight: bold;
+   border: 1px solid  #ffb606;
+ }
+ .btn:hover{
+    background-color:  blanchedalmond;
+     cursor: pointer;
+ }
+ .card img{
+    width:100%;
+    height:282px;
+    transition: all 0.3s linear;
+ }
+ .card:hover img{
+    cursor: pointer;
+    transform: scale(1.1);
+ }
+ .card-wrapper{
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr;
+     grid-row-gap:12px;
+     grid-column-gap: 34px;
+
+ }
+ .home-container{
+     margin:398px 115px;
+     background-color: antiquewhite;
+ }
+ .card{
+     overflow: hidden;
+     height:453px;
+ }
+ .card:hover{
+     background-color: #ffb606;
+
+   }
+   .serv-text{
+       top:116%;
+       position: absolute;
+       width:40%;
+       text-align: center;
+   }
+   .serv-text h3{
+       font-size:48px;
+       margin-left: -173px;
+   }
+   .serv-text span{
+       color: #ffb606;
+       font-style: italic;
+       margin-left:-95px;
+   }
+   .serv-text p{
+       line-height:23px;
+       font-size:14px;
+       font-weight: lighter;
+       margin-top: 17px;
+       text-align: justify;
+       margin-left:29px;
+   }
+   .card h5{
+       margin:39px 13px;
+       font-size: 23px;
+   }
+   .card span{
+       margin:0px 39px;
+       color: #ffb606;
+   }
+   .card p{
+       margin:-15px 11px;
+       font-size: 15px;
+       text-align: justify;
+   }
+   .card:hover span{
+       color: black;
+   }
+   .about-text{
+       text-align: center;
+       position: absolute;
+       width:99% ;
+       top: 45%;
+   }
+   .about{
+       background: url("https://preview.colorlib.com/theme/foodfun/assets/images/reservation-bg.jpg");
+       height:444px;
+       margin-top: 76px;
+       position: relative;
+   }
+   .about-text h6{
+       color: white;
+       font-size: 48px;
+       font-style: italic;
+
+   }
+   .about-text p{
+       font-size:24px;
+       color: white;
+       margin-top: 12px;
+       font-style: initial;
+   }
+   .btn-1{
+       margin-top:36px;
+       padding:15px 25px;
+       background-color: #ffb606;
+
+
+   }
+   .btn-1:hover{
+       background-color: white;
+       
+   }
+   .text-heading{
+       text-align: center;
+       font-size:38px;
+       color:rgb(14, 14, 59);
+   }
+   .text-heading span{
+       color: #ffb606;
+
+   }
+   .paragraph{
+       text-align: center;
+       font-size: 21px;
+       font-weight: 300;
+   }
+   .dishes{
+       display: flex;
+       margin-top:111px;
+       justify-content: space-around;
+   }
+   .left{
+       margin-top:67px;
+   }
+   .left h1{
+       color: rgb(14, 14, 59);
+       font-size:65px;
+       margin-left: -62px;
+   }
+   .left h2{
+       font-size:42px;
+       color: rgb(14, 14, 59);
+       margin-top:116px;
+   }
+   .left span{
+       color: #ffb606;
+   }
+   .para{
+       font-size:16px;
+       margin-top:19px;
+       text-align: justify;
+   }
+   .left h3{
+       font-size:34px;
+       color: #ffb606;
+       margin-top: 17px;
+   }
+   .para-1{
+       margin-top: 14px;
+       font-size: 16px;
+       text-align: justify;
+   }
+   .border-bottom{
+       border-bottom: 2px solid teal;
+       margin:-52px 43px;
+   }
+     .food-container h1,p{
+         text-align: center;
+     }
+     .food-container{
+         margin-top:222px;
+     }
+     .food-container h1{
+         font-size:31px;
+     }
+     .food-container span{
+         color: #ffb606;
+     }
+     .food-container p{
+         font-size: 17px;
+         margin-top: 16px;
+     }
+     .box-container{
+         display: flex;
+         margin: 23PX 23PX;
+         border: 2PX SOLID rgb(14, 14, 59);
+         padding: 1PX 65PX;
+         height: 455PX;
+     }
+     .box-1 img{
+         padding: 1px 23px;
+     }
